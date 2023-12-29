@@ -43,7 +43,6 @@ def build_dataset(total_sample_num):
         Y.append(y)
     return torch.FloatTensor(X), torch.LongTensor(Y)
 
-
 # 测试代码
 # 用来测试每轮模型的准确率
 def evaluate(model):
